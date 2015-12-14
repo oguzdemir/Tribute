@@ -93,6 +93,9 @@ header #logo	{
 	padding: 5px 0 5px 0;
 }
 
+#act{
+	color:rgba(207,13,13,1);
+}
 nav {
 	float:right;
 	margin-top: 0px;/* 
