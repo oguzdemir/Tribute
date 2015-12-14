@@ -232,13 +232,13 @@ article{
 }
 .headliner  h1{
 	font-weight: 600;
-	line-height: 70px;
-	margin-top: 2px;
+	line-height: 60px;
+	margin-top: 0px;
 	color: #fff;
 	font-size: 30px;
 }
 .headliner .normal {
-	margin-top:10px;
+	margin-top:1px;
 	color: rgba(175,175,175,1);
 	line-height: 10px;
 	font-size: 18px;
@@ -265,8 +265,8 @@ article{
 	text-align:right;
 }
 .headliner  img {
-	margin: 0px auto 0px 20px;
-	height: 200px;
+	margin: 1px 10px 0px 20px;
+	height: 170px;
 	width: auto;
 }
 .headliner:after {
