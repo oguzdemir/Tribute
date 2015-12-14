@@ -217,11 +217,8 @@ article{
 	text-align: center;
 	font-size: 40px;
 	font-weight: 700;
-	line-height: 60px;
+	line-height: 90px;
 	color: rgba(207,13,13,1);
-	border-bottom: solid;
-	border-width: 4px;
-	border-color: rgba(207,13,13,0.4); 
 }
 .headliner {
 	margin-top: 10px;
@@ -232,8 +229,8 @@ article{
 }
 .headliner  h1{
 	font-weight: 600;
-	line-height: 60px;
-	margin-top: 0px;
+	line-height: 80px;
+	margin-top: 40px;
 	color: #fff;
 	font-size: 30px;
 }
@@ -266,7 +263,7 @@ article{
 }
 .headliner  img {
 	margin: 1px 10px 0px 20px;
-	height: 170px;
+	height: 350px;
 	width: auto;
 }
 .headliner:after {
