@@ -222,7 +222,6 @@ article{
 }
 .headliner {
 	margin-top: 10px;
-	box-shadow: 5px 5px 20px rgba(0,0,0,0.15);
     border-bottom: solid;
 	border-width: 1px;
 	border-color: rgba(207,13,13,0.4); 
@@ -252,17 +251,19 @@ article{
 }
 
 .headliner .left {
+	margin: 20px;
     float: left;
-    width: 50%;
+    width: 45%;
 	text-align:left;
 }
 .headliner .right {
+	margin: 20px;
     float: right;
-    width: 50%;
+    width: 45%;
 	text-align:right;
 }
 .headliner  img {
-	margin: 1px 10px 0px 20px;
+	margin: 1px 10px 0px 0px;
 	height: 350px;
 	width: auto;
 }
