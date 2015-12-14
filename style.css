@@ -1,0 +1,315 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 
+%5: rgba(236,239,241,1) 
+%10: rgba(207,216,220,1)
+%20: rgba(176,190,197,1)
+%30: rgba(144,166,174,1)
+%40: rgba(120,144,156,1)
+%50: rgba(96,125,139,1)
+%60: rgba(84,110,122,1)
+%80: rgba(55,71,79,1)
+darkred: rgba(207,13,13,1)
+midred: rgba(245,0,2,1)
+pastelred: rgba(243,68,68,1)
+gold: rgba(248,197,31,1)
+*/
+
+body	{
+	font-family: Roboto;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 300;
+	background-color:  #000;
+	
+}
+
+.wrapper{
+	width:1024px;
+	margin: 0 auto 0 auto;
+}
+
+header	{
+	height: 190px;
+	width: 1024px;
+	top: 0;
+	position: relative;
+	padding: 0 5px 0 5px;
+}
+
+
+header #logo	{
+	top: 0;
+	height: 190px;
+	width: 190px;
+	float:left;
+	padding: 5px 0 5px 0;
+}
+
+nav {
+	float:right;
+	margin-top: 0px;/* 
+	border-style: solid;
+    border-bottom: solid;
+	border-color: rgba(207,13,13,1); */
+}
+
+nav ul	{
+	font-size : 20px;
+	text-align: center;
+	padding: 85px 0 85px 0;
+}
+
+nav li	{
+	border-style: solid;
+    border-left: solid;
+	padding: 0 15px 0 15px;
+	border-color: rgba(207,13,13,1);
+	display: inline;
+}
+
+nav a:link	{
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:visited	{
+	color: #fff;
+}
+
+nav a:hover	{
+	background-color: rgba(255,238,112,0);
+	color: rgba(248,197,31,1);
+}
+
+nav a:active	{
+	background-color: rgba(245,76,101,0);
+	color: rgba(245,0,2,1);
+}
+
+
+.contain	{
+	margin: auto auto auto auto;
+	width: 1024px;
+	height: 550px;
+	background-image: url("img/hero3.png");
+	background-repeat: no-repeat;
+    background-position: center; 
+	width: 100%;
+	margin: auto auto auto auto;
+}
+
+.contain #slogan	{
+	background-color: rgba(255,255,255,0.0);
+	width: 800px;
+	margin: 30px auto 0px auto;
+	padding: 5px 15px 15px 15px;
+	border-style: solid;
+    border: none;
+	border-color: rgba(248,197,31,1);
+	border-radius: 5px;
+	text-align: center;
+}
+.contain #slogan	 h1{
+	font-family:Roboto Slap;
+	margin-top:-30px;
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 60px;
+	color: rgba(207,13,13,1);
+}
+.contain #slogan	 h2{
+	margin-top:20px;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 60px;
+	color: #fff;
+}
+
+.contain #slogan	 p{
+	margin: 20px auto 0px auto;
+	width:600px;
+	font-weight: 700;
+	color: rgba(10,10,10,1);
+	line-height: 20px;
+	
+}
+article{
+	text-align: center;
+	height: 300px;
+	margin-left: 4%;
+}
+.photolink	{
+	width: 28%;
+	height: 400px;
+	float: left;
+	border-radius: 5px;
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.15);
+	position: relative;
+	background-repeat: no-repeat;
+    background-position: center;
+	margin-left: 1%;
+	margin-right: 4%;
+}
+.photolink span{
+	color: #fff;
+	text-align: center;
+	/*margin-top: 200px;*/
+	margin-top: 90%;
+	/*margin: 230px auto 0 auto; */
+	display: inline-block;
+}
+
+#twos{
+	margin-top:50px;
+	text-align: center;
+	color: #fff;
+}
+#twos #head{
+	font-family:Roboto Slap;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 60px;
+	color: rgba(207,13,13,1);
+	border-bottom: solid;
+	border-width: 4px;
+	border-color: rgba(207,13,13,0.4); 
+}
+.headliner {
+	margin-top: 20px;
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.15);
+    border-bottom: solid;
+	border-width: 1px;
+	border-color: rgba(207,13,13,0.4); 
+}
+.headliner  h1{
+	font-weight: 600;
+	line-height: 70px;
+	margin-top: 2px;
+	color: #fff;
+	font-size: 30px;
+}
+.headliner .normal {
+	margin-top:10px;
+	color: rgba(175,175,175,1);
+	line-height: 10px;
+	font-size: 18px;
+}
+.headliner .italic{
+	color: rgba(245,0,2,0.7);
+	font-style: italic;
+	line-height: 20px;
+	font-size: 18px;
+}
+.headliner  a {
+	font-size: 15px;
+	color: rgba(207,13,13,1);
+}
+
+.headliner .left {
+    float: left;
+    width: 50%;
+	text-align:left;
+}
+.headliner .right {
+    float: right;
+    width: 50%;
+	text-align:right;
+}
+.headliner  img {
+	margin: 0px auto 0px 20px;
+	height: 200px;
+	width: auto;
+}
+.headliner:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+#countdown{
+	margin: 50px 0px 0px 324px;
+}
+article h2{
+	margin-left: -4%;
+	color: #fff;
+	font-weight: 600;
+	line-height: 70px;
+}
+article h1{
+	margin-left: -4%;
+	color: #fff;
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 70px;
+}
+/* #photolink1,#photolink2 ,#photolink3 {
+	margin-top:50px;
+	color: #fff; 
+	display: inline;
+	float:left;
+	width: 330px;
+	height: 330px;
+	background-image: url("img/photo11.png");
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
+#photolink1 {
+	background-image: url("img/photo11.png");
+}
+#photolink2 {
+	background-image: url("img/photo22.png");
+}
+#photolink3 {
+	background-image: url("img/photo33.png");
+}
+ */
