@@ -141,7 +141,7 @@ nav a:active	{
 }
 
 #sched {
-	margin: 190px auto 0px auto;
+	margin: 100px auto 0px auto;
 	color: rgba(248,197,31,1);
 }
 #sched td{
@@ -166,7 +166,7 @@ nav a:active	{
 	width: 100%;
 }
 .dayz {
-	margin-bottom: 180px;
+	margin-bottom: 30px;
 	padding-bottom: 50px;
 	border-bottom: 1px solid rgba(200,200,200,1);
 }
